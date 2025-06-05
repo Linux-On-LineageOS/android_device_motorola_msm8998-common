@@ -155,3 +155,4 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # inherit from the proprietary version
 include vendor/motorola/msm8998-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
